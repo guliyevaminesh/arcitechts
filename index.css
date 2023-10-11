@@ -10,37 +10,130 @@ header{
 }
 #home-photos{
     width: 100%;
-    height: 700px;
+    height: 800px;
     display: flex;
+    flex-direction: column;
     align-items:start;
+    justify-content: center;
+}
+.texts{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc!important; 
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    display: flex;
+    align-items: start;
     justify-content: start;
+
+}
+.renthomes{
+    width: 100%;
+    height: 2200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
 }
 .maindiv{
     width: 100%;
     height: 400px;
-    margin-top: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap:wrap ;
-    justify-content: space-around;
-    gap: 14px;
+    gap: 10px;
+    margin-top: 30px;
 }
 .photo1 img{
-    width: 270px;
-    height: 180px;
-    background-color: brown;
+    width: 441px;
+    height: 304px;
 }
 .photo1{
     position: relative;
 }
 .housenames{
     width: 135px;
-    height: 25px;
+    height: 45px;
     background-color: black;
     color: white;
     position: absolute;
-    bottom: 160px;
+    bottom: 262px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media screen and (min-width: 661px) and (max-width:992px)
+{
+    .home-photos
+}
+
+#about{
+width: 100%;
+height: 800px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin top: ; 20px;
+gap: 25px ;
+}
+.titlediv{
+    width: 100%;
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc!important; 
+    padding-left: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-bottom: 10px;
+}
+.textdiv{
+    width: 100%;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-right: 25px;
+}
+.people{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.John{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.John img{
+    width: 380px;
+    height: 230px;
+}
+.John button{
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.John h3{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.John p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
