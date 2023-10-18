@@ -35,7 +35,6 @@ header{
     justify-content: center;
     font-size: 15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 30px;
 }
 .maindiv{
     width: 100%;
@@ -44,7 +43,6 @@ header{
     justify-content: center;
     flex-wrap:wrap ;
     gap: 10px;
-    margin-top: 30px;
 }
 .photo1 img{
     width: 340px;
@@ -84,7 +82,6 @@ gap: 25px ;
     font-size: 24px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 1px solid #ccc!important; 
-    padding-left: 30px;
     display: flex;
     align-items: start;
     justify-content: start;
@@ -94,11 +91,11 @@ gap: 25px ;
     width: 100%;
     font-size: 15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 30px;
+    padding-left: 20px;
     display: flex;
     align-items: start;
     justify-content: start;
-    padding-right: 25px;
+    padding-right: 20px;
 }
 .people{
     width: 100%;
